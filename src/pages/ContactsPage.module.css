@@ -1,0 +1,23 @@
+.basic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: 3px solid red;
+    
+}
+
+.basic_text {
+    color: rgba(245, 104, 104, 0.8);
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    /* background-image: url(../ /Icons/delete_icon.png);
+    background-size: cover; */
+}
+
+/* .basic_icon {
+  
+    background-image: url(../Icons/delete_icon.png);
+    background-size: cover;
+} */

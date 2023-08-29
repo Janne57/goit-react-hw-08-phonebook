@@ -1,0 +1,83 @@
+.contact__list {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    background: linear-gradient(217deg, rgba(245, 104, 104, 0.8), rgba(224, 177, 133, 0) 70.71%),
+    linear-gradient(127deg, rgba(241, 151, 33, 0.8), rgba(252, 235, 5, 0) 70.71%),
+    linear-gradient(336deg, rgba(230, 150, 104, 0.8), rgba(235, 111, 73, 0) 70.71%);
+    margin-left: 30px;
+    padding: 10px;  
+    /* outline: solid 2px rgb(243, 147, 2); */
+    border: solid 2px rgb(243, 147, 2);
+    border-radius: 20px;
+    box-shadow: 18px 18px 18px #f7ba75, 
+     -18px -18px 18px #f5dc8b;
+}
+
+.contact__item {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact__item__name {
+    width: 150px;
+    justify-content: flex-start;
+    display: flex;
+    /* outline: solid 2px red; */
+}
+
+.contact__item__numb {
+    width: 190px;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.spiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__btn {
+position: relative;
+width: 80px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+border-radius: 25%;
+border: solid 2px rgb(243, 147, 2);
+/* display: flex; */
+font-size: 10px;
+padding: 8px 8px 8px 2px;
+align-items: center;
+background-color: rgba(245, 98, 142, 0.5);
+cursor: pointer;
+}
+
+
+.contact__btn::before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 5px;
+    content: '';
+    background-image: url(../Icons/delete_icon.png);
+    background-size: cover;
+}
+
+.contact__btn:hover,
+.contact__btn:focus {
+    transition: 0.5s all ease;
+    transform: scale(1.2);
+    border: solid 2px rgb(245, 61, 116);
+    background-color: rgb(243, 147, 2);
+    color: white;
+    box-shadow: 5px 5px 5px #f76c9a; 
+   
+}

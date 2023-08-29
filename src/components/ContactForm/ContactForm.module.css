@@ -1,0 +1,60 @@
+.form__basic {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    background: linear-gradient(217deg, rgba(245, 104, 104, 0.8), rgba(224, 177, 133, 0) 70.71%),
+    linear-gradient(127deg, rgba(241, 151, 33, 0.8), rgba(252, 235, 5, 0) 70.71%),
+    linear-gradient(336deg, rgba(230, 150, 104, 0.8), rgba(235, 111, 73, 0) 70.71%);
+    margin-left: 30px;
+    padding: 10px;  
+    /* outline: solid 2px rgb(243, 147, 2); */
+    border: solid 2px rgb(243, 147, 2);
+    border-radius: 20px;
+    box-shadow: 18px 18px 18px #f7ba75, 
+     -18px -18px 18px #f5dc8b;
+}
+
+.form__basic__input {
+    width: 370px;
+    height: 15px;
+    margin: 5px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.form__button {
+    position: relative;
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 25%;
+    border: solid 2px rgb(243, 147, 2);
+    /* display: flex; */
+    font-size: 14px;
+    padding: 10px 10px 10px 2px;
+    align-items: center;
+    background-color: rgba(245, 98, 142, 0.5);
+    cursor: pointer;
+}
+
+.form__button::before {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 5px;
+    content: '';
+    background-image: url(../Icons/add_icon.png);
+    background-size: cover;
+}
+
+.form__button:hover,
+.form__button:focus {
+    transition: 0.5s all ease;
+    transform: scale(1.2);
+    border: solid 2px rgb(245, 61, 116);
+    background-color: rgb(243, 147, 2);
+    color: white;
+}
