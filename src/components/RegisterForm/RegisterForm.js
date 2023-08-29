@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { register } from 'redux/auth/auth-operations';
-import Notiflix from 'notiflix';
+// import Notiflix from 'notiflix';
 import css from './RegisterForm.module.css';
 
 export const RegisterForm = () => {
