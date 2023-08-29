@@ -1,7 +1,5 @@
-// import { RegisterForm } from 'components/RegisterForm/RegisterForm.js';
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-
 import { useDispatch, useSelector } from 'react-redux';
 import { getIsLoading } from '../redux/contacts/selectors.js';
 import { fetchContacts } from '../redux/contacts/operations.js';
@@ -43,9 +41,4 @@ export default function ContactsPage() {
   );
 }
 
-// <div className={css.basic}>
-// <h1 className={css.basic_text}>Phonebook</h1>
-//         <ContactForm />
-//         <h2 className={css.basic_text}>Contacts</h2>
-//         <Filter />
-// </div>
+

@@ -1,11 +1,6 @@
 
     .container {
-        /* maxWidth: 960, margin: '0 auto', padding: '0 16px' */
-
         min-width: 1000px;
-        /* max-height: auto; */
-        /* margin: 0px auto; */
-        /* margin-right: 0px; */
         margin-left: 20px;
         display: flex;
         min-height: 100vh;
@@ -14,20 +9,8 @@
         background-image: linear-gradient(rgba(243, 112, 112, 0.5), rgba(245, 248, 63, 0.5)), 
         url(../components/Icons/smartphone.jpg); 
         background-size: cover;
-        /* background-size: 100%;
-        background-repeat: no-repeat; */
-        /* outline: solid 3px green; */
-        /* margin-top: -50px; */
-        /* background-size: 150%; */
-      /* backgroundImage: 'linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-      backgroundImage: 'url(./components/Icons/smartphone.jpg)', */
     }
 
-    /* body {
-        background-image: linear-gradient(rgba(243, 112, 112, 0.5), rgba(245, 248, 63, 0.5)), 
-        url(../components/Icons/smartphone.jpg); 
-        background-size: cover;
-    } */
 
     .title {
         padding-top: 100px;

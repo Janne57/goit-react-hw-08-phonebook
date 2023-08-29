@@ -1,6 +1,5 @@
 .form {
     width: 320px;
-    /* margin-left: 20px; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -8,9 +7,7 @@
   .label {
     display: flex;
     flex-direction: column;
-    /* text-align: left; */
     margin: 20px 0px;
-    /* gap: 15px; */
     color: rgba(133, 4, 21, 0.8);
   }
 

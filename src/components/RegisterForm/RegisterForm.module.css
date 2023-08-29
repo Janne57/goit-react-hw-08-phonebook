@@ -1,7 +1,5 @@
 .form {
   width: 320px;
-  /* max-height: 100%; */
-  /* margin-left: 20px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -11,7 +9,6 @@
   flex-direction: column;
   margin: 20px 0px;
   color: rgba(133, 4, 21, 0.8);
-  /* text-align: left; */
 }
 
 .contact__btn {

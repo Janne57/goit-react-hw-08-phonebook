@@ -1,13 +1,10 @@
 import React from 'react';
-// import { IconButton } from "react-bootstrap";
 import { useState } from 'react';
-
 import { useDispatch, useSelector } from 'react-redux';
 import { nanoid } from 'nanoid';
 import Notiflix from 'notiflix';
 import { addContacts } from 'redux/contacts/operations';
 import { getContact } from 'redux/contacts/selectors.js';
-
 import css from './ContactForm.module.css';
 
 const ContactForm = () => {

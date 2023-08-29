@@ -4,8 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getContact, getError, getIsLoading, getFilter } from 'redux/contacts/selectors.js';
 import { useEffect } from 'react';
 import { deleteContacts, fetchContacts } from 'redux/contacts/operations.js';
-// import { FaHome } from "react-icons/fa";
-// import { FaUserPlus } from 'react-icons/fa';
 import Notiflix from 'notiflix';
 import css from '../Contacts/Contacts.module.css';
 
@@ -59,7 +57,6 @@ const Contacts = () => {
             <p className={css.contact__item__name}>{name}</p>
             <p className={css.contact__item__numb}>{number}</p>
             <button className={css.contact__btn}
-              // icon={FaUserPlus}
               onClick={() => {handleDelete(id, name);}}
               // disabled={result.isFetching}
             >

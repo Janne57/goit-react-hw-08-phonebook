@@ -1,8 +1,6 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { AppBar } from '../AppBar/AppBar';
-// import { Container, Header, Link } from './Layout.styled';
-// import css from './Layout.module.css';
 
 const Layout = () => {
  

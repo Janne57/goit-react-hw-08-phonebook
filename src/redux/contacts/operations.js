@@ -4,8 +4,7 @@ import axios from 'axios';
 
 axios.defaults.baseURL =
   'https://connections-api.herokuapp.com/'
-  // 'https://64dcb288e64a8525a0f6f8cb.mockapi.io/api/contacts/';
-
+ 
 export const fetchContacts = createAsyncThunk(
   'contacts/fetchAll',
   async (_, thunkAPI) => {

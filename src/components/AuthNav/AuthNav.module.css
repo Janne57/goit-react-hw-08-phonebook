@@ -9,24 +9,13 @@
     width: 75px;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 20px; */
     border-radius: 25%;
     border: solid 2px rgb(247, 242, 235);
-    /* display: flex; */
     font-size: 14px;
     padding: 10px 10px 10px 2px;
-    /* align-items: center; */
     text-align: center;
     margin-right: 15px;
   }
-  
-  /* .link.active {
-    transition: 0.5s all ease;
-    transform: scale(1.2);
-    border: solid 2px rgb(245, 61, 116);
-    background-color: rgb(243, 147, 2);
-    color: white;
-  } */
 
   .link:hover,
   .link:active {
