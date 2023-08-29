@@ -7,3 +7,29 @@
   .username {
     font-weight: 700;
   }
+
+  
+.contact__btn {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border-radius: 25%;
+  border: solid 2px rgb(236, 235, 232);
+  font-size: 15px;
+  padding: 8px 8px 8px 2px;
+  align-items: center;
+  background-color: rgba(245, 98, 142, 0.5);
+  cursor: pointer;
+}
+
+.contact__btn:hover,
+.contact__btn:focus {
+  transition: 0.5s all ease;
+  transform: scale(1.2);
+  border: solid 2px rgb(245, 61, 116);
+  background-color: rgb(243, 147, 2);
+  color: white;
+  box-shadow: 5px 5px 5px #f76c9a;
+
+}

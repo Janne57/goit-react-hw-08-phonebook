@@ -1,5 +1,5 @@
 .form__basic {
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;

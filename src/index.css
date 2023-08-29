@@ -7,10 +7,9 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     background-image: linear-gradient(rgba(243, 112, 112, 0.5), rgba(245, 248, 63, 0.5));
-  /* , url(./components/Icons/smartphone.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center, center;
+  /* background-position: center, center; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -22,29 +21,3 @@ code {
     monospace;
 }
 
-/* .container {
-  background-image: linear-gradient(rgba(243, 112, 112, 0.5), rgba(245, 248, 63, 0.5));
-  background-size: cover;
-  background-repeat: no-repeat;
-  outline: 4px solid green;
-} */
-/* 
-button {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px;
-  margin: 19px 0px;
-  border-bottom: 3px solid grey;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #c06792;
-  font-weight: 700;
-} */
-
-/* button:hover,
-button:active {
-  color: white;
-  background-color: #ca99b9;
-  transform: scale(1.2);
-} */
