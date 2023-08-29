@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/auth-operations';
-import Notiflix from 'notiflix';
+// import Notiflix from 'notiflix';
 import css from './LoginForm.module.css';
 
 export const LoginForm = () => {
