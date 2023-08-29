@@ -10,9 +10,10 @@ body {
   /* , url(./components/Icons/smartphone.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center, center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  height: 100vh;
   
 }
 

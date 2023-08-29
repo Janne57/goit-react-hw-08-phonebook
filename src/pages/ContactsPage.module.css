@@ -1,16 +1,17 @@
 .basic {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    outline: 3px solid red;
+    /* outline: 3px solid red; */
     
 }
 
 .basic_text {
     color: rgba(245, 104, 104, 0.8);
-    /* margin-left: auto;
-    margin-right: auto; */
+    /* /* margin-left: auto; */
+    /* margin-top: 200px;  */
     text-align: center;
     /* background-image: url(../ /Icons/delete_icon.png);
     background-size: cover; */

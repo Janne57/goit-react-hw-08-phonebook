@@ -17,7 +17,7 @@ export const RegisterForm = () => {
         password: form.elements.password.value,
       })
     );
-    Notiflix.Notify.success(`${form.elements.name.value} is registered successfully!`);
+    // Notiflix.Notify.success(`${form.elements.name.value} is registered successfully!`);
     form.reset();
   };
 
@@ -25,15 +25,15 @@ export const RegisterForm = () => {
     <form className={css.form} onSubmit={handleSubmit} autoComplete="off">
       <label className={css.label}>
         UserName
-        <input type="text" name="name" />
+        <input type="text" name="name" required />
       </label>
       <label className={css.label}>
         Email
-        <input type="email" name="email" />
+        <input type="email" name="email" required />
       </label>
       <label className={css.label}>
         Password
-        <input type="password" name="password" />
+        <input type="password" name="password" required />
       </label>
       <button className={css.contact__btn} type="submit">Register</button>
     </form>

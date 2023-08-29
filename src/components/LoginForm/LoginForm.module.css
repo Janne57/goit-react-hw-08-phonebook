@@ -1,11 +1,13 @@
 .form {
     width: 320px;
+    margin-left: 20px;
   }
   
   .label {
     display: flex;
     flex-direction: column;
-    margin-bottom: 16px;
+    margin: 16px 0px;
+    color: rgba(133, 4, 21, 0.8);
   }
 
   .contact__btn {
