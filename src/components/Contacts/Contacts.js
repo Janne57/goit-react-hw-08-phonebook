@@ -2,8 +2,7 @@ import React from 'react';
 import { ColorRing } from 'react-loader-spinner';
 import { useDispatch, useSelector } from 'react-redux';
 import { getContact, getError, getIsLoading, getFilter } from 'redux/contacts/selectors.js';
-import { useEffect } from 'react';
-import { deleteContacts, fetchContacts } from 'redux/contacts/operations.js';
+import { deleteContacts } from 'redux/contacts/operations.js';
 import Notiflix from 'notiflix';
 import css from '../Contacts/Contacts.module.css';
 
@@ -14,10 +13,6 @@ const Contacts = () => {
   const dispatch = useDispatch();
   const isLoading = useSelector(getIsLoading);
   const error = useSelector(getError);
-
-  useEffect(() => {
-  dispatch(fetchContacts());
-    }, [dispatch]);
 
   const getVisibleContact = () => {
     const normalizedFilter = filter.toLowerCase();
